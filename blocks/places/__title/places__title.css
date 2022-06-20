@@ -1,0 +1,7 @@
+.places__title {
+  font-size: 72px;
+  margin: 0;
+  grid-area: title;
+  align-self: end;
+  padding-bottom: 48px;
+}
