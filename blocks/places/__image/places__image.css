@@ -1,4 +1,12 @@
 .places__image {
-
   grid-area: image;
+  width: 100%;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 690px) {
+  .places__image {
+    order: 3;
+  }
 }

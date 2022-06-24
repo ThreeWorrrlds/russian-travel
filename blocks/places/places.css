@@ -1,9 +1,13 @@
-.places {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas:
-    "title website"
-    "image paragraph-one"
-    "image paragraph-two";
+.places {}
+
+@media screen and (max-width: 928px) {
+  .places {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .places {
+    padding: 0;
+  }
 }

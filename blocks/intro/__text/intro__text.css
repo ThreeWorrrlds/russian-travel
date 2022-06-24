@@ -2,5 +2,12 @@
   max-width: 690px;
   font-size: 16px;
   line-height: 1.63;
+  font-weight: 400;
   margin: 0 0 33px;
+}
+
+@media screen and (max-width: 690px) {
+  .intro__text {
+    margin: 0 0 34px;
+  }
 }

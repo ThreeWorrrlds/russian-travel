@@ -1,5 +1,11 @@
 .places__website {
   grid-area: website;
   align-self: end;
-  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 690px) {
+  .places__website {
+    order: 2;
+    align-self: flex-start;
+  }
 }
