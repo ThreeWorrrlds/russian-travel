@@ -1,9 +1,9 @@
-.places__description {
+.card__description {
   grid-area: description;
 }
 
 @media screen and (max-width: 690px) {
-  .places__description {
+  .card__description {
     order: 4;
     padding: 0 16px;
   }

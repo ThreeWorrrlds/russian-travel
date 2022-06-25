@@ -1,7 +1,9 @@
-.places__url {
+.card__url {
   margin: 0 0 12px;
   font-size: 12px;
   line-height: 1;
   font-weight: 400;
   color: #AAAAAA;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }

@@ -4,12 +4,9 @@
   font-weight: 400;
   text-decoration: none;
   color: #FFFFFF;
-  margin-right: 18px;
 }
 
-.footer__link:last-child {
-  margin-right: 0;
-}
+
 
 @media screen and (max-width: 690px) {
   .footer__link {

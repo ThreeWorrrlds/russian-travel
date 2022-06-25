@@ -1,10 +1,10 @@
-.places__website {
+.card__website {
   grid-area: website;
   align-self: end;
 }
 
 @media screen and (max-width: 690px) {
-  .places__website {
+  .card__website {
     order: 2;
     align-self: flex-start;
     padding: 0 16px;
